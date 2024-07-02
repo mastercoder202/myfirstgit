@@ -11,6 +11,7 @@ const Navbar=()=>{
              <NavLink className={(e)=>{return e.isActive?"red":""}} to="/vowels"><li>Vowels</li></NavLink>
              <NavLink className={(e)=>{return e.isActive?"red":""}} to="/prime"><li>prime</li></NavLink>
              <NavLink className={(e)=>{return e.isActive?"red":""}} to="/consonants"><li>cons</li></NavLink>
+             <NavLink className={(e)=>{return e.isActive?"red":""}} to="/temp"><li>Temp</li></NavLink>
         </ul>
         </>
     )

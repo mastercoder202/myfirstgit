@@ -6,6 +6,7 @@ import Navbar from "./navbar"
 import Vowels from "./vowels"
 import Prime from "./prime"
 import Consonants from "./consonants"
+import Temp from "./temp"
 
 const App =()=> {
 
@@ -33,6 +34,10 @@ const App =()=> {
      {
       path:"/consonants",
       element:<><Navbar/><Consonants/></>,
+    },
+    {
+      path:"/temp",
+      element:<><Navbar/><Temp/></>,
     },
   ])
  return(
